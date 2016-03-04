@@ -1,0 +1,18 @@
+{
+  "name": "pssh-exec",
+  "version": "1.0.0",
+  "description": "Execute a script over ssh in parallel using Node.js and pipe to and/or from all sessions at once, or individual sessions. Inspired by `pssh(1)`",
+  "dependencies": {
+    "end-of-stream": "^1.1.0",
+    "multi-duplex-stream": "^0.0.0",
+    "object-assign": "^4.0.1",
+    "ssh-exec": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0",
+    "ssh2": "^0.4.13",
+    "concat-stream": "^1.5.1"
+  },
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC"
+}
